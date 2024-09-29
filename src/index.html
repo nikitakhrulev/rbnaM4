@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBNA M4</title>
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__btn">
+                    <button>подобрать помещение</button>
+                </div>
+                <div class="header__logo">
+                    <picture>
+                        <source srcset="./img/icons/mobile-logo.svg" media="(max-width: 768px)">
+                        <img src="./img/icons/logo.svg" alt="logo">
+                    </picture>
+                </div>
+                <div class="header__row-mob">
+                   <img src="./img/icons/mobile-phone.svg" alt="phone">
+                    <div class="header__burger-btn">
+                        <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0.725098L20 0.725099" stroke="black" />
+                            <path d="M0 5.7251L20 5.7251" stroke="black" />
+                            <path d="M0 10.7251L20 10.7251" stroke="black" />
+                          </svg>
+                    </div>
+                </div>
+                <div class="header__phone">
+                    <a href="tel:+79014686900">+7 (901) 468-69-00</a>
+                </div>
+                <div class="header__menu-mob closed">
+                    <div class="container">
+                        <ul class="mob__menu-list">
+                            <li class="mob__menu-item">
+                                <a href="#!">парк весна</a>
+                            </li>
+                            <li class="mob__menu-item">
+                                <a href="#!">парк лето</a>
+                            </li>
+                            <li class="mob__menu-item">
+                                <a href="#!">парк м-4</a>
+                            </li>
+                        </ul>
+                        <div class="mob__menu-phone">
+                            <a href="tel:+74950000000">+7 (495) 000-00-00</a>
+                        </div>
+                        <div class="mob__menu-btn">
+                            <button class="btn">подобрать помещение</button>
+                        </div>
+                        <div class="mob__menu-controls">
+                            <ul class="controls__list">
+                                <li class="controls__item">
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="hero__block">
+                <div class="container">
+                    <div class="header__content">
+                        <div class="header__content-wrapper">
+                            <div class="header__content-left">
+                                <p>Логистический комплекc <span>класса А</span></p>
+                            </div>
+                            <div class="header__heading-mob">
+                                <img src="./img/icons/h1-mob.svg" alt="h1">
+                            </div>
+                            <div class="header__content-right">
+                                <p>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ БИЗНЕСА</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__heading">
+                        <img src="./img/icons/h1.svg" alt="header">
+                        <p>Домодедово, деревня Ям</p>
+                        <span>Готовность — июнь 2025 г.</span>
+                    </div>
+                </div>
+            </div>
+        <div class="header__hero">
+            <picture>
+                <source srcset="./img/hero-mobile.jpg" media="(max-width: 768px)">
+                <img src="./img/hero.jpg" alt="hero">
+            </picture>
+        </div>
+    </header>
+    <main class="main">
+        <section class="rent">
+            <div class="container">
+                <h2 class="rent__title title" data-aos="fade-up">аренда помещений<br>
+                    для производства и хранения</h2>
+                <div class="rent__list-container" data-aos="fade-up">
+                    <ul class="rent__list">
+                        <li class="rent__item">
+                            <p>1 линия трассы М-4 Дон</p>
+                        </li>
+                        <li class="rent__item">
+                            <p>15 км МКАД и ЦКАД</p>
+                        </li>
+                        <li class="rent__item">
+                            <p>700 м Каширское шоссе</p>
+                        </li>
+                        <li class="rent__item">
+                            <p>15 мин. аэропорт Домодедово</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rent__map">
+                <picture>
+                    <source srcset="./img/rent-map-mob.png" media="(max-width: 768px)">
+                    <img src="./img/rent-map.png" alt="map">
+                </picture>
+            </div>
+        </section>
+        <section class="offer">
+            <div class="offer__content-wrapper">
+                <div class="container offer__container">
+                    <div class="offer__left" data-aos="fade-up">
+                        <h2 class="offer__title title">АРЕНДА С ОКТЯБРЯ 2024</h2>
+                        <p>Успейте получить выгоднОЕ ПРЕДЛОЖЕНИЕ</p>
+                        <div class="offer__btn">
+                            <button class="btn">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="offer__right" data-aos="fade-up">
+                        <p>СКЛАДЫ<br>ОТ 14 000 РУБ/М2 В ГОд</p>
+                        <span>без ндс и операционных расходов</span>
+                    </div>
+                </div>
+            </div>
+            <div class="offer__swiper">
+                <div class="swiper offerSwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./img/offer/offer0.jpg" alt="offer0"></div>
+                      <div class="swiper-slide"><img src="./img/offer/offer1.jpg" alt="offer1"></div>
+                      <div class="swiper-slide"><img src="./img/offer/offer2.jpg" alt="offer2"></div>
+                      <div class="swiper-slide"><img src="./img/offer/offer3.jpg" alt="offer3"></div>
+                    </div>
+                  </div>
+                  <div class="offer__arrows">
+                    <div class="offer__left-arrow" id="swiper-offer-left">
+                        <img src="./img/icons/black-left-arrow.svg" alt="left arrow">
+                    </div>
+                    <div class="offer__right-arrow" id="swiper-offer-right">
+                        <img src="./img/icons/black-right-arrow.svg" alt="right arrow">
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__header">
+                    <div class="about__header-content" data-aos="fade-up">
+                        <div class="about__header-left">
+                            <div class="about__left-number">
+                                <p>90 000</p>
+                            </div>
+                            <div class="about__left-description">
+                                <p>М²</p>
+                                <span>ОБЩАЯ ПЛОЩАДЬ<br> 
+                                    КОМПЛЕКСА</span>
+                            </div>
+                        </div>
+                        <div class="about__header-right">
+                            <div class="about__button">
+                                <button class="btn">записаться на просмотр</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about__list-wrapper" data-aos="fade-up">
+                <ul class="about__list">
+                    <li class="about__item">
+                        <div class="about__item-left">
+                            <img src="./img/about/about0.svg" alt="about0">
+                            <p>1 линия трассы М-4,<br> 
+                                700 м до Каширского ш.,<br>
+                                15 км до МКАД, 15 км до ЦКАД</p>
+                        </div>
+                        <div class="about__item-right">
+                            <img src="./img/about/about1.svg" alt="about1">
+                            <p>Гибкие планировочные решения<br>
+                                (возможность увеличения<br>площади блока)</p>
+                        </div>
+                    </li>
+                    <li class="about__item">
+                        <div class="about__item-left">
+                            <img src="./img/about/about2.svg" alt="about2">
+                            <p>Доковое оборудование.<br>
+                                Кросс-док</p>
+                        </div>
+                        <div class="about__item-right">
+                            <img src="./img/about/about3.svg" alt="about3">
+                            <p>Комфортабельное общежитие<br>
+                                для сотрудников (вместительность<br> 
+                                до 400 человек)</p>
+                        </div>
+                    </li>
+                    <li class="about__item">
+                        <div class="about__item-left">
+                            <img src="./img/about/about4.svg" alt="about4">
+                            <p>Современные технологии:<br>
+                                премиум-фасады FRONTSIDE,<br>контролит на кровле</p>
+                        </div>
+                        <div class="about__item-right">
+                            <img src="./img/about/about5.svg" alt="about5">
+                            <p>Собственная управляющая<br>компания (сервис 24/7)</p>
+                        </div>
+                    </li>
+                    <li class="about__item">
+                        <div class="about__item-left">
+                            <img src="./img/about/about6.svg" alt="about6">
+                            <p>Высокопрочные<br>промышленные полы</p>
+                        </div>
+                        <div class="about__item-right">
+                            <img src="./img/about/about7.svg" alt="about7">
+                            <p>Просторный паркинг</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="genplan">
+            <div class="container genplan__container">
+                <div class="genplan__img">
+                    <img src="./img/genplan/genplan.png" alt="genplan">
+                    <div class="genplan__point">
+                        <div class="genplan__point-circle point-circle__parking0">
+                            <img src="./img/genplan/parking.svg" alt="parking">
+                        </div>
+                        <div class="genplan__modal genplan__modal-parking0">
+                            <div class="genplan__modal-close">
+                                <img src="./img/genplan/close-modal.svg" alt="close">
+                            </div>
+                            <div class="genplan__modal-content">
+                                <span>кпп 24/7</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="genplan__point">
+                        <div class="genplan__point-circle point-circle__parking1">
+                            <img src="./img/genplan/parking.svg" alt="parking">
+                        </div>
+                    </div>
+                    <div class="genplan__point">
+                        <div class="genplan__point-circle point-circle__parking2">
+                            <img src="./img/genplan/parking.svg" alt="parking">
+                        </div>
+                    </div>
+                    <div class="genplan__point">
+                        <div class="genplan__point-circle point-circle__parking3">
+                            <img src="./img/genplan/parking.svg" alt="parking">
+                        </div>
+                    </div>
+                    <div class="genplan__point">
+                        <div class="genplan__point-circle point-circle__house">
+                            <img src="./img/genplan/house.svg" alt="house">
+                        </div>
+                    </div>
+                    <div class="genplan__point">
+                        <div class="genplan__point-circle point-circle__sleep">
+                            <img src="./img/genplan/sleep.svg" alt="sleep">
+                        </div>
+                    </div>
+                    <div class="genplan__point">
+                        <div class="genplan__point-circle point-circle__kpp">
+                            <img src="./img/genplan/kpp.svg" alt="kpp">
+                        </div>
+                    </div>
+                    <div class="genplan__point">
+                        <div class="genplan__point-circle point-circle__bus">
+                            <img src="./img/genplan/bus.svg" alt="bus">
+                        </div>
+                    </div>
+                </div>
+                <div class="genplan__buttons">
+                    <button class="btn genplan__first-btn">ГЕНПЛАН</button>
+                    <button class="btn">ЗАПРОСИТЬ ПРЕЗЕНТАЦИЮ</button>
+                </div>
+            </div>
+        </section>
+        <section class="choose">
+            <div class="container choose__container">
+                <h2 class="title choose__title" data-aos="fade-up">ВЫБРАТЬ ПОМЕЩЕНИЕ</h2>
+                <div class="choose__btn" data-aos="fade-up">
+                    <button class="btn">записаться на просмотр</button>
+                </div>
+                <div class="choose__area">
+                    <img src="./img/Планировка 1.svg" alt="area">
+                </div>
+                <div class="choose__info" data-aos="fade-up">
+                    <ul class="choose__list">
+                        <li class="choose__item">
+                            <div class="choose__item-block"></div>
+                            <div class="choose__item-descr"><span>72 023 м²</span><br>площадь складских<br> помещений</div>
+                        </li>
+                        <li class="choose__item">
+                            <div class="choose__item-block"></div>
+                            <div class="choose__item-descr"><span>4 225 м²</span><br>площадь<br> абк</div>
+                        </li>
+                        <li class="choose__item">
+                            <div class="choose__item-block"></div>
+                            <div class="choose__item-descr"><span>13 194 м²</span><br>площадь<br>мезонина</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="tech">
+            <div class="container">
+                <h2 class="title tech__title" data-aos="fade-up">ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ</h2>
+                <div class="tech__img">
+                    <img src="./img/tech/tech.png" alt="tech">
+                </div>
+                <div class="tech__list-wrapper" data-aos="fade-up">
+                    <ul class="tech__list">
+                        <li class="tech__item">
+                            <img src="./img/tech/tech0.svg" alt="tech0">
+                            <p>1 док на каждые 500 м2<br>Кросс док</p>
+                        </li>
+                        <li class="tech__item">
+                            <img src="./img/tech/tech1.svg" alt="tech1">
+                            <p>12 м<br>рабочая высота</p>
+                        </li>
+                        <li class="tech__item">
+                            <img src="./img/tech/tech2.svg" alt="tech2">
+                            <p>12 х 24 м<br>шаг колонн</p>
+                        </li>
+                        <li class="tech__item">
+                            <img src="./img/tech/tech3.svg" alt="tech3">
+                            <p>9 т/м2<br>нагрузка на пол</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="additional">
+            <div class="container additional__container">
+                <h2 class="title additional__title" data-aos="fade-up">ДОПОЛНИТЕЛЬНО</h2>
+                <ul class="additional__list" data-aos="fade-right">
+                    <li class="additional__item">
+                        <picture>
+                            <source srcset="./img/icons/additional-arrow-mob.svg" media="(max-width: 768px)">
+                            <img src="./img/icons/additional-arrow.svg" alt="arrow">
+                        </picture>
+                        <p>Клининг зон общего пользования</p>
+                    </li>
+                    <li class="additional__item">
+                        <picture>
+                            <source srcset="./img/icons/additional-arrow-mob.svg" media="(max-width: 768px)">
+                            <img src="./img/icons/additional-arrow.svg" alt="arrow">
+                        </picture>
+                        <p>Системы круглосуточного контроля доступа, охрана, видеонаблюдение</p>
+                    </li>
+                    <li class="additional__item">
+                        <picture>
+                            <source srcset="./img/icons/additional-arrow-mob.svg" media="(max-width: 768px)">
+                            <img src="./img/icons/additional-arrow.svg" alt="arrow">
+                        </picture>
+                        <p>Техническое обслуживание внешних инженерных систем и эксплуатация объекта</p>
+                    </li>
+                    <li class="additional__item">
+                        <picture>
+                            <source srcset="./img/icons/additional-arrow-mob.svg" media="(max-width: 768px)">
+                            <img src="./img/icons/additional-arrow.svg" alt="arrow">
+                        </picture>
+                        <p>Сервис 24/7</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <h2 class="title advantages__title" data-aos="fade-up">ПРЕИМУЩЕСТВА</h2>
+                <div class="rent__list-container">
+                    <ul class="rent__list" data-aos="fade-right">
+                        <li class="rent__item">
+                            <p>Гибкие условия<br>сотрудничества</p>
+                        </li>
+                        <li class="rent__item">
+                            <p>Удобная локация рядом с ключевыми<br>транспортными узлами и магистралями</p>
+                        </li>
+                        <li class="rent__item">
+                            <p>увеличение площадей и установка<br>необходимого оборудования</p>
+                        </li>
+                        <li class="rent__item">
+                            <p>Высокие стандарты качества строительства<br>по современным технологиям</p>
+                        </li>
+                        <li class="rent__item">
+                            <p>Энергоэффективность и экономичность<br>в эксплуатации</p>
+                        </li>
+                        <li class="rent__item">
+                            <p>Характеристики объекта базируются на реальных<br>потребностях бизнеса и персонала</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="request">
+            <div class="container">
+                <h2 class="title request__title" data-aos="fade-up">Оставить заявку</h2>
+                <div class="request__content">
+                    <div class="request__info" data-aos="fade-up">
+                        <span>Коммерческий директор</span>
+                        <div class="request__contacts">
+                            <a href="tel:+79014686900">+7 (901) 468-69-00</a>
+                            <a href="mailto:client@rbna.dev">client@rbna.dev</a>
+                        </div>
+                    </div>
+                    <div class="request__form">
+                        <form>
+                            <div class="request__inputs">
+                                <div class="request__input input-action">
+                                    <input type="text" required>
+                                    <span>имя</span>
+                                </div>
+                                <div class="request__input input-action">
+                                    <input type="tel" required>
+                                    <span>телефон</span>
+                                </div>
+                                <div class="request__input input-action">
+                                    <input type="text">
+                                    <span>комментарий (не обязательно)</span>
+                                </div>
+                            </div>
+                            <div class="request__form-bottom" data-aos="fade-up">
+                                <div class="request__checkbox">
+                                    <label>
+                                        <input type="checkbox" name="checkbox-accept" class="real-checkbox">
+                                        <span class="custom-checkbox"></span>
+                                        <p>СОГЛАШАЮСЬ НА ОБРАБОТКУ<br>ПЕРСОНАЛЬНЫХ ДАННЫХ</p>
+                                    </label>
+                                </div>
+                                <div class="request__btn">
+                                    <button class="btn">отправить</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container products__container">
+                <div class="products__header">
+                    <div class="products__header-logo">
+                        <span>ИНДУСТРИАЛЬНЫЙ ДЕВЕЛОПЕР <br>
+                            ПОЛНОГО ЦИКЛА</span>
+                        <img src="./img/icons/white-logo.svg" alt="logo">
+                    </div>
+                    <div class="products__header-bio">
+                        <span>В портфеле компании</span>
+                        <div class="products__header-numbers">
+                            <div>
+                                <p>650 000+ м²</p>
+                                <span>проектов</span>
+                            </div>
+                            <div>
+                                <p>10+ лет</p>
+                                <span>рынке</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products__swipers">
+                <div class="swiper productsSwiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/products/products0.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/products/products0.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/products/products0.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/products/products0.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper productsSwiper2">
+                    <div class="swiper-wrapper">
+                        <!-- <div class="swiper-slide">
+                            <p>Логистические комплексы класса А</p>
+                        </div> -->
+                        <div class="swiper-slide">
+                            <p>Промышленные комплексы и технопарки, включая пищевую отрасль</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p>Городские склады последней мили</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p>Индустриальные комплексы Light Industrial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="container">
+                <div class="projects__header">
+                    <h2 class="title projects__title" data-aos="fade-up">ПРОЕКТЫ RBNA</h2>
+                    <div class="projects__controls">
+                        <div class="projects__arrow projects__prev" id="projects-swiper-prev">
+                            <img src="./img/icons/white-left-arrow.svg" alt="arrow left">
+                        </div>
+                        <div class="projects__arrow projects__next" id="projects-swiper-next">
+                            <img src="./img/icons/white-right-arrow.svg" alt="arrow right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="swiper projectsSwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                            <div class="projects__card">
+                                <div class="projects__img">
+                                    <img src="./img/projects/projects0.jpg" alt="project0">
+                                </div>
+                                <div class="projects__card-content">
+                                    <div class="projects__card-visible">
+                                        <p>парк весна</p>
+                                        <div class="projects__card-control"></div>
+                                        <div class="projects__card-border">
+                                            <span>продажа</span>
+                                        </div>
+                                    </div>
+                                    <div class="projects__card-hidden">
+                                        <h3>Light Industrial</h3>
+                                        <p>г.о. Домодедово, дер. Заболотье</p>
+                                        <span>75 000 м²</span>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                      <div class="swiper-slide">
+                            <div class="projects__card">
+                                <div class="projects__img">
+                                    <img src="./img/projects/projects1.jpg" alt="project1">
+                                </div>
+                                <div class="projects__card-content">
+                                    <div class="projects__card-visible">
+                                        <p>парк весна</p>
+                                        <div class="projects__card-control"></div>
+                                        <div class="projects__card-border">
+                                            <span>продажа</span>
+                                        </div>
+                                    </div>
+                                    <div class="projects__card-hidden">
+                                        <h3>Light Industrial</h3>
+                                        <p>г.о. Домодедово, дер. Заболотье</p>
+                                        <span>75 000 м²</span>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                      <div class="swiper-slide">
+                            <div class="projects__card">
+                                <div class="projects__img">
+                                    <img src="./img/projects/projects2.jpg" alt="project2">
+                                </div>
+                                <div class="projects__card-content">
+                                    <div class="projects__card-visible">
+                                        <p>парк весна</p>
+                                        <div class="projects__card-control"></div>
+                                        <div class="projects__card-border">
+                                            <span>продажа</span>
+                                        </div>
+                                    </div>
+                                    <div class="projects__card-hidden">
+                                        <h3>Light Industrial</h3>
+                                        <p>г.о. Домодедово, дер. Заболотье</p>
+                                        <span>75 000 м²</span>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                      <div class="swiper-slide">
+                            <div class="projects__card">
+                                <div class="projects__img">
+                                    <img src="./img/projects/projects3.jpg" alt="project3">
+                                </div>
+                                <div class="projects__card-content">
+                                    <div class="projects__card-visible">
+                                        <p>парк весна</p>
+                                        <div class="projects__card-control"></div>
+                                        <div class="projects__card-border">
+                                            <span>продажа</span>
+                                        </div>
+                                    </div>
+                                    <div class="projects__card-hidden">
+                                        <h3>Light Industrial</h3>
+                                        <p>г.о. Домодедово, дер. Заболотье</p>
+                                        <span>75 000 м²</span>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+        </section>
+        <section class="trust">
+            <div class="container">
+                <h2 class="title trust__title" data-aos="fade-up">НАМ ДОВЕРЯЮТ</h2>
+                <div class="trust__img">
+                    <picture>
+                        <source srcset="./img/trust-mob.png" media="(max-width: 768px)">
+                        <img src="./img/trust.png" alt="trust">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="container">
+                <div class="subscribe__content">
+                    <div class="subscribe__call">
+                        <p data-aos="fade-up">Получить подробную презентацию</p>
+                        <div class="subscribe__btn" data-aos="fade-up">
+                            <button class="btn">заказать звонок</button>
+                        </div>
+                    </div>
+                    <div class="subscribe__email">
+                        <form class="subscribe__form">
+                            <div class="subscribe__input input-action" data-aos="fade-up">
+                                    <input type="text" required>
+                                    <span>ваш email</span>
+                                </div>
+                            <div class="request__form-bottom" data-aos="fade-up">
+                                <div class="request__checkbox">
+                                    <label>
+                                        <input type="checkbox" name="checkbox-accept" class="real-checkbox" required>
+                                        <span class="custom-checkbox"></span>
+                                        <p>СОГЛАШАЮСЬ НА ОБРАБОТКУ<br>ПЕРСОНАЛЬНЫХ ДАННЫХ</p>
+                                    </label>
+                                </div>
+                                <div class="subscribe__approve-btn">
+                                    <button class="btn">отправить</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__copyright">
+                    <span>© 2024 RBNF</span>
+                    <p>политика конфиденциальности</p>
+                </div>
+                <div class="footer__phone">
+                    <a href="tel:+79014686900">+7 (901) 468-69-00</a>
+                </div>
+                <div class="footer__nav">
+                    <a href="#!">проекты</a>
+                    <a href="#!">контакты</a>
+                </div>
+                <div class="footer__btn">
+                    <button class="btn">подобрать помещение</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

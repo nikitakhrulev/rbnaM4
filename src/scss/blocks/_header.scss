@@ -1,0 +1,175 @@
+.header {
+    color: var(--black);
+}
+.header__row {
+    padding: 53px 0 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media only screen and (max-width: 768px) {
+        padding: 32px 0 60px;
+        position: relative;
+    }
+}
+.header__btn {
+    button {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 117%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        background-color: var(--light-green);
+        padding: 10px 20px;
+    }
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
+}
+.header__phone {
+    a {
+        color: var(--black);
+        font-weight: 400;
+        font-size: 18px;
+    }
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
+}
+.header__content {
+    background-image: url(../img/hero-vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    @media only screen and (max-width: 768px) {
+        background: none;
+    }
+}
+.header__content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 29px;
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+        height: 124px;
+        margin-bottom: 79px;
+    }
+}
+.header__content-left {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: uppercase;
+    transform: translate(0px, 28px);
+    width: 100%; // update
+    max-width: 300px;
+    span {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+    }
+    @media only screen and (max-width: 1024px) {
+        font-size: 18px;
+        line-height: 167%;
+        span {
+            font-size: 28px;
+            line-height: 129%;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+        margin-bottom: 10px;
+        span {
+            font-size: 12px;
+            font-weight: 700;
+        }
+    }
+}
+.header__content-right {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 82%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #000;
+    transform: translate(0px, 17px);
+    @media only screen and (max-width: 1024px) {
+        font-size: 18px;
+        line-height: 100%;
+    }
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+    }
+}
+.header__hero {
+    position: relative;
+    margin-top: -200px;
+    img {
+        width: 100%;
+    }
+    @media only screen and (max-width: 768px) {
+        margin: 0;
+    }
+}
+.header__heading {
+    img {
+        margin-bottom: 27px;
+    }
+    p {
+        margin-bottom: 38px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 64%;
+        text-transform: uppercase;
+    }
+    span {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        text-transform: uppercase;
+    }
+    padding-bottom: 19px;
+    @media only screen and (max-width: 1024px) {
+        padding-bottom: 26px;
+        img {
+            display: none;
+        }
+        p {
+            font-size: 18px;
+            line-height: 78%;
+            margin-bottom: 26px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        padding-bottom: 26px;
+        img {
+            margin-bottom: 23px;
+        }
+        p {
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        span {
+            font-size: 10px;
+            line-height: 140%;
+        }
+    }
+}
+.header__heading-mob {
+    display: none;
+    @media only screen and (max-width: 768px) {
+        border-top: 1px solid black;
+        padding-top: 11px;
+        display: block;
+    }
+}
+.hero__block {
+    background: var(--white);
+    z-index: 30;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 120px), calc(100% - 530px) calc(100% - 120px), calc(100% - 620px) 100%, 0 100%);
+    @media only screen and (max-width: 768px) {
+        clip-path: none;
+    }
+}

@@ -1,0 +1,109 @@
+.genplan {
+    padding: 40px 0 96px;
+}
+.genplan__buttons {
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    gap: 12px;
+    transform: translate(0px, 10px);
+    button {
+        background-color: transparent;
+        border: 1px solid var(--dark-green);
+    }
+    .genplan__first-btn {
+        max-width: 98px;
+    }
+}
+.genplan__img {
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+}
+.genplan__container {
+    position: relative;
+}
+.genplan__point-circle {
+    background-color: var(--black);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .2s ease-in;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+.point-circle__parking0 {
+    left: calc(511px * 100% / 1071px);
+    top:  calc(158px * 100% / 603px);
+    z-index: 9;
+}
+.point-circle__parking1 {
+    left: calc(378px * 100% / 1071px);
+    top:  calc(406px * 100% / 603px)
+}
+.point-circle__parking2 {
+    left: calc(491px * 100% / 1071px);
+    top:  calc(370px * 100% / 603px)
+}
+.point-circle__parking3 {
+    left: calc(630px * 100% / 1071px);
+    top:  calc(439px * 100% / 603px)
+}
+.point-circle__house {
+    left: calc(639px * 100% / 1071px);
+    top:  calc(277px * 100% / 603px)
+}
+.point-circle__sleep {
+    left: calc(767px * 100% / 1071px);
+    top:  calc(403px * 100% / 603px)
+}
+.point-circle__kpp {
+    left: calc(851px * 100% / 1071px);
+    top:  calc(329px * 100% / 603px)
+}
+.point-circle__bus {
+    left: calc(914px * 100% / 1071px);
+    top:  calc(244px * 100% / 603px)
+}
+.genplan__modal {
+    background-color: var(--genplan-modal-bg);
+    position: absolute;
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+.genplan__modal-close {
+    text-align: end;
+    padding: 5px;
+}
+.genplan__modal-content {
+    span {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: var(--white);
+    }
+}
+.genplan__modal-parking0 {
+    width: 170px;
+    position: absolute;
+    top: calc(100px * 100% / 603px);
+    left: calc(540px * 100% / 1071px);
+    z-index: 1;
+    .genplan__modal-content {
+        padding: 0 19px 20px;
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "name": "rbna-park4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "swiper": "^11.1.12"
+  }
+}

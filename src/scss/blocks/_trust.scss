@@ -1,0 +1,17 @@
+.trust {
+    padding-bottom: 96px;
+    @media only screen and (max-width: 768px) {
+        padding-bottom: 56px;
+    }
+}
+.trust__title {
+    margin-bottom: 76px;
+    @media only screen and (max-width: 768px) {
+        margin-bottom: 45px;
+    }
+}
+.trust__img {
+    img {
+        width: 100%;
+    }
+}
